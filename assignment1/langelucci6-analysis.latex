@@ -1,0 +1,261 @@
+\documentclass[12pt,oneside]{article}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{color}
+\begin{document}
+\title{Assignment 1: CS 7641}
+\author{Louis Angelucci}
+
+\maketitle
+\graphicspath{ { assets/ } }
+
+\section*{Introduction}
+
+    In searching for a data set I chose two that I didn't really know much about from life experiences.  In this case I went with the wine dataset from the University of Minho and the Mushroom set from the Audubon Society. 
+    I've always wanted to know more about mushroom in general were essentially safe to eat.  I've always loved foods based on mushrooms from soup to steak toppings.  I'm hoping that this data set will give a better idea on how to determine what mushroom attributes make some of them safe to eat.
+    Wine itself is another food that I know very little about other than there are two types red and white.  However, I've always wondered what really makes a red wine different from a white.  
+    I'm hoping that the machine learning algorithms provided by weka will allow me to classify safe mushrooms to eat and how wine can be classified by its types based on its attributes.
+
+\section*{Data acquisition}
+
+Both data sets come from the UCI Machine Learning repository.
+
+
+\subsection*{Mushroom Data Set}
+
+The mushroom data set is up first. In it there are 8124 instances of mushrooms being either poisonous or edible. There are 22 different attributes that are captured in this data set. What is interesting is that the distribution of attributes seems to indicate that mushrooms with a clear odor seem to be more poisonous. 
+
+\subsection*{Wine Data Set}
+
+Next the wine data set includes two data sets of the red and white \. These data sets came with 12 original attributes but I needed to pre-process the data to better fit our classification problem. Which was how to determine if a wine was red or white. To achieve this I added a new attribute 'red' which is represented a either 't' or 'f'. In summary our data looks like this.
+
+
+\section*{Tools Used and Methodology}
+
+To run finish this assignment I used Weka 3.8, the latest version of JRuby, and R to graph my results. Weka because it was recommened by the TA's and it simplifies building classification problems and JRuby because it simplifies the development. There is more about this in the README. I've also provided the data I used in the data diretory along with a make file to rerun my experiements.
+
+For each algorithm ran cross validation using 10 folds. The purpose of running cross validation first is to train algorithms that will properly classify additional information as it gets induced.
+
+\section*{K-Nearest Neighbors}
+K-Nearest Neighbors classification is applied on a data set where given a query point and given the closest $k$ points to that point $q$ you vote on what is the closest similar classification. The domain knowledge of K-Nearest Neighbor is distance represented as K.
+
+For $k$ I tested using a 10-fold cross validation for the odd numbers from 1 to 49. As well I wanted to test the difference between manhattan and euclidean distances.
+
+This resulted as expected for the mushroom dataset and seemed unable to truly classifiy the wine dataset.  What happened for the mushroom classification problem is what you'd expect from a KNN problem. As K gets bigger so does the error. This has to do with the curse of dimensionality. While $k=1$ has the lowest root mean squared error I think that $k=3$ is the best choice. Because if given a classification problem where you are trying to separate out two classes it's best to at least have a tie breaker. The data which came from cross validation trying all of those K combinations and euclidean and manhattan looks like this. Notice that euclidean and manhattan distances result in the same error rate decay.
+
+\includegraphics[scale=0.2]{assets/mushroom_knn_errors.png}
+
+What happened with the wine dataset was different. As $k$ went up the error went down, which signals to me that KNN is not a good solution for classifying wine in this manner. The reason for that is if the error is going down and $k$ approaches the instance count then we are not derriving any induction out of it and looking at the entire data set which doesn't solve the problem! Instead if $k = n$ where $n$ is the entire data set (in this case around 8000) then we'd just be averaging the entire data set. It seems that KNN does not model this very well.
+
+\includegraphics[scale=0.2]{assets/wine_knn_errors.png}
+
+While KNN is a simplistic algorithm it did well with mushroom classification. This is due to the fact that mushrooms that are poisonous are similar in nature. For instance odor seems to be a big determiner we saw earlier in the distribution of attributes. The wine data set did not fare as well because wine classification isn't as similarity based. While a wine might share similar characteristics it may or may not be an above average wine. Chemically wine is pretty similar even though one might be a Bota Box while the other is a Grand Cru.
+
+\section*{Boosting}
+
+The AdaBoost adaptively determines the best fit through iterations. The downside to AdaBoost is using too many iterations and overfitting the data, but a lot of work has been done with this and shows great performance. AdaBoost doesn't have a lot of tweaks to be had like KNN does, and most of the work can be done by setting how many iterations you want to go through.
+
+So I decided to try [10, 100, 500, 1000] which gives a decent hypothesis set of AdaBoost algorithms. Running this against both data sets yields good answers in a quick period of time. Again the mushroom data set worked well against this algorithm. It went from a 0.22 RMSE to 0.02 between 10 and 100 iterations and then dropped off after that.
+
+\includegraphics[scale=0.2]{assets/mushroom_boost_errors.png}
+
+This is indicative of the underlining distribution that we observed earlier where there is a definite pattern to the attributes of the mushrooms.
+
+On the other hand the wine data set didn't improve much over iterations. Between 10 and 100 iterations it dropped 0.006 RMSE from 0.428 to 0.425. At 900 it seems to have found a leveling piont at 0.420. 
+
+\includegraphics[scale=0.2]{assets/wine_boost_errors.png}
+
+
+\section{Decision trees with pruning}
+
+The added benefit of these trees is that you can determine what is the most important variable out of your data set by looking at the root of the tree and the following branches. Pruning was used in this case to compensate for overfitting.
+
+To anaylze the two data sets using decision trees I utilized the Weka J48 tree. For this I've decided to use $confidence \in {0.05, 0.15, 0.25, 0.35, 0.45}$ and $min\_num\_obj \in [2,5]$. 
+
+The mushroom data does well yet again but what's interesting is that for the most part whether the confidence level is moved, or min\_num\_obj is moved around the RMSE stays pretty much the same. That means that the mushrooms should be classified this way.
+
+\includegraphics[scale=0.25]{assets/mushroom_j48_errors.png}
+
+According to the resulting tree odor is by far the most important attribute. 
+
+\includegraphics[width=5in]{assets/mushroom_tree.png}
+
+The wine data set revolves around a RMSE of 0.155 which is not great. At the lowest there is an RMSE of 0.15 when the confidence is 0.5 and min\_num\_obj is 5. What this seems to indicate is that the data is noisy because it's relying on the factor of limiting numbers of objects in each leaf.
+
+\includegraphics[scale=0.25]{assets/wine_j48_errors.png}
+
+The resulting tree graphic doesn't help much either. The conclustion I get out of this is that determining if a wine is read or white is rather difficult with the attributes in this data set. The graph is so large that it'll be hard to view this and I recommend you look at it under `./assets/winequality\_tree.png`.
+
+\includegraphics[width=5in]{assets/winequality_tree.png}
+
+Decision trees seem to be very well suited for some problems and not for others. In the case of Wine type there are a lot of continuous variables that seem to perform poorly. The benefit though of using the J48 / C4.5 tree is that it yields good results fast. I think that the best classification of the Mushrooms is the decision tree. 
+
+\section*{Neural Networks}
+
+Neural Networks are a very deep subject ranging from perceptrons to cyclic RBF networks. In a lot of cases though a feed foward network or multilayer perceptron can achieve great results. This is where I had the toughest time in terms of analysis due to the implementation of Weka's multilayer perceptron package. Since we are dealing with nominal variables being expanded out into binary variables means that we had around 120 inputs for mushrooms and only two outputs. The anaylsis of the network was extremely slow and there wasn't a lot of opportunity to analyze different methods due to the massive complexity of the network.
+
+The neural network didn't perform well in either data set. I think the reason why is because on the input layer you have around 120 inputs due to nominal variables and then only 2 output nodes. Neural networks are good at outputting lots of nodes and I think that it would have been better suited for a problem like classifying across many different categories like frequency of letters to languages.
+
+The mushroom data set started at a RMSE of 0.1 and went down to 0.04 which was not much of a change over times of training.
+
+\includegraphics[scale=0.2]{assets/mushroom_nn_errors.png}
+
+The complexity of the neural network doesn't add anything to the wine classification problem either since it hovers around 0.42 RMSE. This is a good RMSE considering the other classifications but still not exceptional. 
+
+\includegraphics[scale=0.2]{assets/wine_nn_errors.png}
+
+\section*{Support Vector Machines}
+
+Support Vector Machines are a great way of building classifications. It has the benefit of being a simple quadratic program that can be calculated using the Karush Kuhn Tucker theorem. They become very useful when introducing two things: different kernels and different Cost parameters. Kernels also have the added benefit of taking what looks like a noisy dataset and mapping it to a new dimensional set that might be linear in that space. The kernels that a package like LibSVM has is polynomial, sigmoid and radial basis functions.
+
+Trying to find the best classificaiton for our datasets I figured that the best way would be to do a grid search by cross validating $2^{-15} < C < 2^{15}$ incrementing the exponent each time by two. As well I figured that looking at linear, polynomial, and rbf kernels would be good enough to search.
+
+While the classification ran fine with our behaved data set, the mushrooms, things didn't operate so well with the wine data set.
+
+In the mushroom case there was no decay there was more of a cliff from massive error to zero error. Looking at the graph below you'll notice that varying C across the various kernels yielded not much of a different. In this case picking a linear kernel with C at or above 64 would yield good results.
+
+\includegraphics[scale=0.2]{assets/mushroom_svm_errors.png}
+
+Things weren't so easy in the wine's case. Matter of fact I was not able to finish all of the hypotheses for SVM. Running the cross validation grid search for over a day still yielded no results and it didn't finish. An algorithm that doesn't train fast is the wrong algorithm to use. According to Ockham's Razor it's important to pick the simplest solution. The reason of course for this is because if you build a complex model it will overfit and never work. That being said I was able to run a smaller sample set of hypotheses. In the case of wine I ran $2^{-7}< C < 2^7$ and the kernel being either linear or rbf. The rbf kernel yielded faster results and would be my choice to use if we were using this algorithm to classify wine. Looking at the error function things are not very great, there is no real change or decay.
+
+\includegraphics[scale=0.2]{assets/wine_svm_errors.png}
+
+The wine data set is just about impossible to classify using the supervised learning methods outlined in this assignment.
+ 
+\section*{Conclusion}
+
+Using the tree that was built using J48 I can determine whether a mushroom is poisonous or not given a few simple questions. And if I'm not sure I can always look it up just to double check. The real benefit though is that now I know what makes a poisonous mushroom. Unfortunatly I can't say the same thing for determining the wine type. 
+
+Supervised learning methods work well for data sets that have an underlining distribution that we can infer from the past. It seems that the cursory data analysis we did at the beginning made a big difference as to whether the problem itself was solveable or not. Things did not work as well for the wine data set which seems to have a lot of noise in it. 
+
+\end{document}\documentclass[12pt,oneside]{article}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{color}
+\begin{document}
+\title{Assignment 1: CS 7641}
+\author{Louis Angelucci}
+
+\maketitle
+\graphicspath{ { assets/ } }
+
+\section*{Introduction}
+
+    In searching for a data set I chose two that I didn't really know much about from life experiences.  In this case I went with the wine dataset from the University of Minho and the Mushroom set from the Audubon Society. 
+    I've always wanted to know more about mushroom in general were essentially safe to eat.  I've always loved foods based on mushrooms from soup to steak toppings.  I'm hoping that this data set will give a better idea on how to determine what mushroom attributes make some of them safe to eat.
+    Wine itself is another food that I know very little about other than there are two types red and white.  However, I've always wondered what really makes a red wine different from a white.  
+    I'm hoping that the machine learning algorithms provided by weka will allow me to classify safe mushrooms to eat and how wine can be classified by its types based on its attributes.
+
+\section*{Data acquisition}
+
+Both data sets come from the UCI Machine Learning repository.
+
+
+\subsection*{Mushroom Data Set}
+
+The mushroom data set is up first. In it there are 8124 instances of mushrooms being either poisonous or edible. There are 22 different attributes that are captured in this data set. What is interesting is that the distribution of attributes seems to indicate that mushrooms with a clear odor seem to be more poisonous. 
+
+\subsection*{Wine Data Set}
+
+Next the wine data set includes two data sets of the red and white \. These data sets came with 12 original attributes but I needed to pre-process the data to better fit our classification problem. Which was how to determine if a wine was red or white. To achieve this I added a new attribute 'red' which is represented a either 't' or 'f'. In summary our data looks like this.
+
+
+\section*{Tools Used and Methodology}
+
+To run finish this assignment I used Weka 3.8, the latest version of JRuby, and R to graph my results. Weka because it was recommened by the TA's and it simplifies building classification problems and JRuby because it simplifies the development. There is more about this in the README. I've also provided the data I used in the data diretory along with a make file to rerun my experiements.
+
+For each algorithm ran cross validation using 10 folds. The purpose of running cross validation first is to train algorithms that will properly classify additional information as it gets induced.
+
+\section*{K-Nearest Neighbors}
+K-Nearest Neighbors classification is applied on a data set where given a query point and given the closest $k$ points to that point $q$ you vote on what is the closest similar classification. The domain knowledge of K-Nearest Neighbor is distance represented as K.
+
+For $k$ I tested using a 10-fold cross validation for the odd numbers from 1 to 49. As well I wanted to test the difference between manhattan and euclidean distances.
+
+This resulted as expected for the mushroom dataset and seemed unable to truly classifiy the wine dataset.  What happened for the mushroom classification problem is what you'd expect from a KNN problem. As K gets bigger so does the error. This has to do with the curse of dimensionality. While $k=1$ has the lowest root mean squared error I think that $k=3$ is the best choice. Because if given a classification problem where you are trying to separate out two classes it's best to at least have a tie breaker. The data which came from cross validation trying all of those K combinations and euclidean and manhattan looks like this. Notice that euclidean and manhattan distances result in the same error rate decay.
+
+\includegraphics[scale=0.2]{assets/mushroom_knn_errors.png}
+
+What happened with the wine dataset was different. As $k$ went up the error went down, which signals to me that KNN is not a good solution for classifying wine in this manner. The reason for that is if the error is going down and $k$ approaches the instance count then we are not derriving any induction out of it and looking at the entire data set which doesn't solve the problem! Instead if $k = n$ where $n$ is the entire data set (in this case around 8000) then we'd just be averaging the entire data set. It seems that KNN does not model this very well.
+
+\includegraphics[scale=0.2]{assets/wine_knn_errors.png}
+
+While KNN is a simplistic algorithm it did well with mushroom classification. This is due to the fact that mushrooms that are poisonous are similar in nature. For instance odor seems to be a big determiner we saw earlier in the distribution of attributes. The wine data set did not fare as well because wine classification isn't as similarity based. While a wine might share similar characteristics it may or may not be an above average wine. Chemically wine is pretty similar even though one might be a Bota Box while the other is a Grand Cru.
+
+\section*{Boosting}
+
+The AdaBoost adaptively determines the best fit through iterations. The downside to AdaBoost is using too many iterations and overfitting the data, but a lot of work has been done with this and shows great performance. AdaBoost doesn't have a lot of tweaks to be had like KNN does, and most of the work can be done by setting how many iterations you want to go through.
+
+So I decided to try [10, 100, 500, 1000] which gives a decent hypothesis set of AdaBoost algorithms. Running this against both data sets yields good answers in a quick period of time. Again the mushroom data set worked well against this algorithm. It went from a 0.22 RMSE to 0.02 between 10 and 100 iterations and then dropped off after that.
+
+\includegraphics[scale=0.2]{assets/mushroom_boost_errors.png}
+
+This is indicative of the underlining distribution that we observed earlier where there is a definite pattern to the attributes of the mushrooms.
+
+On the other hand the wine data set didn't improve much over iterations. Between 10 and 100 iterations it dropped 0.006 RMSE from 0.428 to 0.425. At 900 it seems to have found a leveling piont at 0.420. 
+
+\includegraphics[scale=0.2]{assets/wine_boost_errors.png}
+
+
+\section{Decision trees with pruning}
+
+The added benefit of these trees is that you can determine what is the most important variable out of your data set by looking at the root of the tree and the following branches. Pruning was used in this case to compensate for overfitting.
+
+To anaylze the two data sets using decision trees I utilized the Weka J48 tree. For this I've decided to use $confidence \in {0.05, 0.15, 0.25, 0.35, 0.45}$ and $min\_num\_obj \in [2,5]$. 
+
+The mushroom data does well yet again but what's interesting is that for the most part whether the confidence level is moved, or min\_num\_obj is moved around the RMSE stays pretty much the same. That means that the mushrooms should be classified this way.
+
+\includegraphics[scale=0.25]{assets/mushroom_j48_errors.png}
+
+According to the resulting tree odor is by far the most important attribute. 
+
+\includegraphics[width=5in]{assets/mushroom_tree.png}
+
+The wine data set revolves around a RMSE of 0.155 which is not great. At the lowest there is an RMSE of 0.15 when the confidence is 0.5 and min\_num\_obj is 5. What this seems to indicate is that the data is noisy because it's relying on the factor of limiting numbers of objects in each leaf.
+
+\includegraphics[scale=0.25]{assets/wine_j48_errors.png}
+
+The resulting tree graphic doesn't help much either. The conclustion I get out of this is that determining if a wine is read or white is rather difficult with the attributes in this data set. The graph is so large that it'll be hard to view this and I recommend you look at it under `./assets/winequality\_tree.png`.
+
+\includegraphics[width=5in]{assets/winequality_tree.png}
+
+Decision trees seem to be very well suited for some problems and not for others. In the case of Wine type there are a lot of continuous variables that seem to perform poorly. The benefit though of using the J48 / C4.5 tree is that it yields good results fast. I think that the best classification of the Mushrooms is the decision tree. 
+
+\section*{Neural Networks}
+
+Neural Networks are a very deep subject ranging from perceptrons to cyclic RBF networks. In a lot of cases though a feed foward network or multilayer perceptron can achieve great results. This is where I had the toughest time in terms of analysis due to the implementation of Weka's multilayer perceptron package. Since we are dealing with nominal variables being expanded out into binary variables means that we had around 120 inputs for mushrooms and only two outputs. The anaylsis of the network was extremely slow and there wasn't a lot of opportunity to analyze different methods due to the massive complexity of the network.
+
+The neural network didn't perform well in either data set. I think the reason why is because on the input layer you have around 120 inputs due to nominal variables and then only 2 output nodes. Neural networks are good at outputting lots of nodes and I think that it would have been better suited for a problem like classifying across many different categories like frequency of letters to languages.
+
+The mushroom data set started at a RMSE of 0.1 and went down to 0.04 which was not much of a change over times of training.
+
+\includegraphics[scale=0.2]{assets/mushroom_nn_errors.png}
+
+The complexity of the neural network doesn't add anything to the wine classification problem either since it hovers around 0.42 RMSE. This is a good RMSE considering the other classifications but still not exceptional. 
+
+\includegraphics[scale=0.2]{assets/wine_nn_errors.png}
+
+\section*{Support Vector Machines}
+
+Support Vector Machines are a great way of building classifications. It has the benefit of being a simple quadratic program that can be calculated using the Karush Kuhn Tucker theorem. They become very useful when introducing two things: different kernels and different Cost parameters. Kernels also have the added benefit of taking what looks like a noisy dataset and mapping it to a new dimensional set that might be linear in that space. The kernels that a package like LibSVM has is polynomial, sigmoid and radial basis functions.
+
+Trying to find the best classificaiton for our datasets I figured that the best way would be to do a grid search by cross validating $2^{-15} < C < 2^{15}$ incrementing the exponent each time by two. As well I figured that looking at linear, polynomial, and rbf kernels would be good enough to search.
+
+While the classification ran fine with our behaved data set, the mushrooms, things didn't operate so well with the wine data set.
+
+In the mushroom case there was no decay there was more of a cliff from massive error to zero error. Looking at the graph below you'll notice that varying C across the various kernels yielded not much of a different. In this case picking a linear kernel with C at or above 64 would yield good results.
+
+\includegraphics[scale=0.2]{assets/mushroom_svm_errors.png}
+
+Things weren't so easy in the wine's case. Matter of fact I was not able to finish all of the hypotheses for SVM. Running the cross validation grid search for over a day still yielded no results and it didn't finish. An algorithm that doesn't train fast is the wrong algorithm to use. According to Ockham's Razor it's important to pick the simplest solution. The reason of course for this is because if you build a complex model it will overfit and never work. That being said I was able to run a smaller sample set of hypotheses. In the case of wine I ran $2^{-7}< C < 2^7$ and the kernel being either linear or rbf. The rbf kernel yielded faster results and would be my choice to use if we were using this algorithm to classify wine. Looking at the error function things are not very great, there is no real change or decay.
+
+\includegraphics[scale=0.2]{assets/wine_svm_errors.png}
+
+The wine data set is just about impossible to classify using the supervised learning methods outlined in this assignment.
+ 
+\section*{Conclusion}
+
+Using the tree that was built using J48 I can determine whether a mushroom is poisonous or not given a few simple questions. And if I'm not sure I can always look it up just to double check. The real benefit though is that now I know what makes a poisonous mushroom. Unfortunatly I can't say the same thing for determining the wine type. 
+
+Supervised learning methods work well for data sets that have an underlining distribution that we can infer from the past. It seems that the cursory data analysis we did at the beginning made a big difference as to whether the problem itself was solveable or not. Things did not work as well for the wine data set which seems to have a lot of noise in it. 
+
+\end{document}

@@ -1,0 +1,5311 @@
+jruby bin/cross_validate.rb
+[GenericPropertiesCreator] classloader in use is not the system classloader: using static entries in weka/gui/GenericObjectEditor.props rather than dynamic class discovery.
+Running Analysis for winequality KNearestNeighbor
+Evaluating:
+ ---
+:knn: 1
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 3
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 5
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 7
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 9
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 11
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 13
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 15
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 17
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 19
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 21
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 23
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 25
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 27
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 29
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 31
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 33
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 35
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 37
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 39
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 41
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 43
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 45
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 47
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 49
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 1
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 3
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 5
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 7
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 9
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 11
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 13
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 15
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 17
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 19
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 21
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 23
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 25
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 27
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 29
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 31
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 33
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 35
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 37
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 39
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 41
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 43
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 45
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 47
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 49
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Running Analysis for agaricus-lepiota KNearestNeighbor
+Evaluating:
+ ---
+:knn: 1
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 3
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 5
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 7
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 9
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 11
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 13
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 15
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 17
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 19
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 21
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 23
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 25
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 27
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 29
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 31
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 33
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 35
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 37
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 39
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 41
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 43
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 45
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 47
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 49
+:distance_function: :euclidean
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 1
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 3
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 5
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 7
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 9
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 11
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 13
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 15
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 17
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 19
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 21
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 23
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 25
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 27
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 29
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 31
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 33
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 35
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 37
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 39
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 41
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 43
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 45
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 47
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+:knn: 49
+:distance_function: :manhattan
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Running Analysis for winequality SVM
+Evaluating:
+ ---
+:degree: 3
+:cost: 0.0078125
+:kernel: :rbf
+..*
+optimization finished, #iter = 2850
+nu = 0.4128321451717441
+obj = -18.919605693999788, rho = 0.99023668965934
+nSV = 3642, nBSV = 1709
+Total nSV = 3642
+Fold: 1
+..*
+optimization finished, #iter = 2801
+nu = 0.41283214517174344
+obj = -18.982887621426276, rho = 0.9907405398480844
+nSV = 3633, nBSV = 1716
+Total nSV = 3633
+Fold: 2
+..*
+optimization finished, #iter = 2822
+nu = 0.4128321451717426
+obj = -19.06544907044716, rho = 0.9906256875389952
+nSV = 3634, nBSV = 1704
+Total nSV = 3634
+Fold: 3
+..*
+optimization finished, #iter = 2832
+nu = 0.4128321451717427
+obj = -19.043672024229036, rho = 0.9908021157248439
+nSV = 3633, nBSV = 1714
+Total nSV = 3633
+Fold: 4
+..*
+optimization finished, #iter = 2787
+nu = 0.4212572909915748
+obj = -19.38527593944861, rho = 0.9903864156705479
+nSV = 3653, nBSV = 1770
+Total nSV = 3653
+Fold: 5
+..*
+optimization finished, #iter = 2933
+nu = 0.5181464679196381
+obj = -23.5848975302063, rho = 0.9868708805973592
+nSV = 4056, nBSV = 2399
+Total nSV = 4056
+Fold: 6
+..*
+optimization finished, #iter = 2936
+nu = 0.5181464679196364
+obj = -23.58276534959426, rho = 0.9867689719621748
+nSV = 4054, nBSV = 2416
+Total nSV = 4054
+Fold: 7
+..*
+optimization finished, #iter = 2921
+nu = 0.5181464679196371
+obj = -23.575342223243336, rho = 0.9867852191829943
+nSV = 4061, nBSV = 2403
+Total nSV = 4061
+Fold: 8
+..*
+optimization finished, #iter = 2893
+nu = 0.5181464679196368
+obj = -23.58251674655747, rho = 0.9867739073310555
+nSV = 4043, nBSV = 2428
+Total nSV = 4043
+Fold: 9
+..*
+optimization finished, #iter = 2945
+nu = 0.5181464679196369
+obj = -23.577196567642854, rho = 0.9868778995741261
+nSV = 4057, nBSV = 2407
+Total nSV = 4057
+Fold: 10
+..*
+optimization finished, #iter = 2921
+nu = 0.5181464679196361
+obj = -23.58311379811945, rho = 0.9867319870804484
+nSV = 4055, nBSV = 2430
+Total nSV = 4055
+Fold: 11
+..*
+optimization finished, #iter = 2935
+nu = 0.5181464679196359
+obj = -23.58552690362648, rho = 0.9870196365532831
+nSV = 4053, nBSV = 2402
+Total nSV = 4053
+Fold: 12
+..*
+optimization finished, #iter = 2940
+nu = 0.5181464679196376
+obj = -23.57906660032108, rho = 0.986686749354839
+nSV = 4033, nBSV = 2417
+Total nSV = 4033
+Fold: 13
+..*
+optimization finished, #iter = 2912
+nu = 0.5181464679196369
+obj = -23.578559968611007, rho = 0.9867360010647012
+nSV = 4064, nBSV = 2415
+Total nSV = 4064
+Fold: 14
+..*
+optimization finished, #iter = 2947
+nu = 0.5181464679196361
+obj = -23.579319921471203, rho = 0.9868617397237995
+nSV = 4064, nBSV = 2405
+Total nSV = 4064
+Fold: 15
+..*
+optimization finished, #iter = 2942
+nu = 0.5181464679196375
+obj = -23.583976112187013, rho = 0.9868900567754103
+nSV = 4061, nBSV = 2414
+Total nSV = 4061
+Fold: 16
+..*
+optimization finished, #iter = 2978
+nu = 0.5181464679196374
+obj = -23.57874488868116, rho = 0.9867792192399719
+nSV = 4064, nBSV = 2412
+Total nSV = 4064
+Fold: 17
+..*
+optimization finished, #iter = 2949
+nu = 0.5180625303742109
+obj = -23.585074619126004, rho = 0.9869063494195486
+nSV = 4067, nBSV = 2413
+Total nSV = 4067
+Fold: 18
+..*
+optimization finished, #iter = 2925
+nu = 0.5180625303742105
+obj = -23.5821607055381, rho = 0.9869793332875546
+nSV = 4062, nBSV = 2409
+Total nSV = 4062
+Fold: 19
+..*
+optimization finished, #iter = 2902
+nu = 0.5180625303742111
+obj = -23.583555528099755, rho = 0.9868402796709834
+nSV = 4046, nBSV = 2424
+Total nSV = 4046
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 0.0625
+:kernel: :rbf
+....*
+optimization finished, #iter = 4590
+nu = 0.3587430455712806
+obj = -107.36165919698004, rho = 0.935940805598844
+nSV = 3670, nBSV = 1367
+Total nSV = 3670
+Fold: 1
+....*
+optimization finished, #iter = 4448
+nu = 0.36354169019262506
+obj = -109.4861168215976, rho = 0.9384726535924877
+nSV = 3676, nBSV = 1359
+Total nSV = 3676
+Fold: 2
+....*
+optimization finished, #iter = 4500
+nu = 0.3722104816642821
+obj = -112.40706893894676, rho = 0.9355018462826649
+nSV = 3721, nBSV = 1441
+Total nSV = 3721
+Fold: 3
+....*
+optimization finished, #iter = 4555
+nu = 0.36838493872683703
+obj = -111.31865299224245, rho = 0.9377882452787947
+nSV = 3693, nBSV = 1396
+Total nSV = 3693
+Fold: 4
+....*
+optimization finished, #iter = 4589
+nu = 0.37388897275292726
+obj = -112.60024495198363, rho = 0.935334109213448
+nSV = 3708, nBSV = 1443
+Total nSV = 3708
+Fold: 5
+....*
+optimization finished, #iter = 4485
+nu = 0.4379315747754233
+obj = -129.91774466652953, rho = 0.9192007906217176
+nSV = 3890, nBSV = 1818
+Total nSV = 3890
+Fold: 6
+....*
+optimization finished, #iter = 4540
+nu = 0.43789084891072694
+obj = -129.79297491191437, rho = 0.918625840427715
+nSV = 3885, nBSV = 1820
+Total nSV = 3885
+Fold: 7
+....*
+optimization finished, #iter = 4524
+nu = 0.4373022587510082
+obj = -129.47129044036436, rho = 0.9187957441743818
+nSV = 3878, nBSV = 1802
+Total nSV = 3878
+Fold: 8
+....*
+optimization finished, #iter = 4515
+nu = 0.4377971713587687
+obj = -129.79547735900846, rho = 0.9190187179542314
+nSV = 3880, nBSV = 1828
+Total nSV = 3880
+Fold: 9
+....*
+optimization finished, #iter = 4492
+nu = 0.43749492216498465
+obj = -129.560022213924, rho = 0.9194290640678724
+nSV = 3880, nBSV = 1804
+Total nSV = 3880
+Fold: 10
+....*
+optimization finished, #iter = 4475
+nu = 0.43789366508927413
+obj = -129.81753264246927, rho = 0.9185075449398636
+nSV = 3881, nBSV = 1827
+Total nSV = 3881
+Fold: 11
+....*
+optimization finished, #iter = 4537
+nu = 0.43798347689399314
+obj = -129.94072977176842, rho = 0.9202106252009212
+nSV = 3908, nBSV = 1817
+Total nSV = 3908
+Fold: 12
+....*
+optimization finished, #iter = 4429
+nu = 0.43735730049834537
+obj = -129.6247113772205, rho = 0.9184904942158633
+nSV = 3853, nBSV = 1822
+Total nSV = 3853
+Fold: 13
+....*
+optimization finished, #iter = 4475
+nu = 0.43752968086921035
+obj = -129.61340357272846, rho = 0.9184519854361637
+nSV = 3891, nBSV = 1825
+Total nSV = 3891
+Fold: 14
+....*
+optimization finished, #iter = 4604
+nu = 0.4377063718715611
+obj = -129.68893837930577, rho = 0.9192960638089324
+nSV = 3903, nBSV = 1819
+Total nSV = 3903
+Fold: 15
+....*
+optimization finished, #iter = 4579
+nu = 0.4378804232793958
+obj = -129.8635235933104, rho = 0.9195812926713843
+nSV = 3903, nBSV = 1810
+Total nSV = 3903
+Fold: 16
+....*
+optimization finished, #iter = 4512
+nu = 0.43772279929738944
+obj = -129.60456034766221, rho = 0.9185667283962565
+nSV = 3906, nBSV = 1825
+Total nSV = 3906
+Fold: 17
+....*
+optimization finished, #iter = 4495
+nu = 0.4378849885811066
+obj = -129.92252884204902, rho = 0.9196424714804726
+nSV = 3907, nBSV = 1812
+Total nSV = 3907
+Fold: 18
+....*
+optimization finished, #iter = 4555
+nu = 0.4377046132998905
+obj = -129.73788418543208, rho = 0.9200035352356287
+nSV = 3903, nBSV = 1817
+Total nSV = 3903
+Fold: 19
+....*
+optimization finished, #iter = 4538
+nu = 0.43785329048800475
+obj = -129.83357629480074, rho = 0.9191307753707946
+nSV = 3893, nBSV = 1814
+Total nSV = 3893
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 0.5
+:kernel: :rbf
+.....*
+optimization finished, #iter = 5856
+nu = 0.18572771378242764
+obj = -401.05049084392573, rho = 0.8103626848607476
+nSV = 3066, nBSV = 625
+Total nSV = 3066
+Fold: 1
+.....*
+optimization finished, #iter = 5705
+nu = 0.19281940848195847
+obj = -425.9634257705776, rho = 0.8246235339979854
+nSV = 3073, nBSV = 684
+Total nSV = 3073
+Fold: 2
+.....*
+optimization finished, #iter = 5729
+nu = 0.19557568465891637
+obj = -430.40089759390713, rho = 0.8121697930007167
+nSV = 3115, nBSV = 659
+Total nSV = 3115
+Fold: 3
+.....*
+optimization finished, #iter = 5862
+nu = 0.19868343171653646
+obj = -435.67165730702334, rho = 0.8175384667720612
+nSV = 3115, nBSV = 706
+Total nSV = 3115
+Fold: 4
+.....*
+optimization finished, #iter = 5853
+nu = 0.19819239374264433
+obj = -431.2683773872621, rho = 0.8093553689334242
+nSV = 3100, nBSV = 681
+Total nSV = 3100
+Fold: 5
+.....*
+optimization finished, #iter = 5907
+nu = 0.22338001942306857
+obj = -487.2612711225776, rho = 0.7821960344026889
+nSV = 3127, nBSV = 790
+Total nSV = 3127
+Fold: 6
+.....*
+optimization finished, #iter = 5886
+nu = 0.22269920668792315
+obj = -484.28748572478133, rho = 0.7808057130461825
+nSV = 3127, nBSV = 788
+Total nSV = 3127
+Fold: 7
+.....*
+optimization finished, #iter = 5834
+nu = 0.22164504708238367
+obj = -481.32254708598924, rho = 0.7809048739280776
+nSV = 3130, nBSV = 778
+Total nSV = 3130
+Fold: 8
+.....*
+optimization finished, #iter = 5756
+nu = 0.22291295490713386
+obj = -484.6899282658394, rho = 0.7816568107853504
+nSV = 3131, nBSV = 791
+Total nSV = 3131
+Fold: 9
+.....*
+optimization finished, #iter = 5910
+nu = 0.22152670431259516
+obj = -481.22665930743295, rho = 0.7827127567600632
+nSV = 3148, nBSV = 766
+Total nSV = 3148
+Fold: 10
+.....*
+optimization finished, #iter = 5806
+nu = 0.2227604288447385
+obj = -484.01919030653767, rho = 0.7807993968413143
+nSV = 3117, nBSV = 779
+Total nSV = 3117
+Fold: 11
+.....*
+optimization finished, #iter = 5884
+nu = 0.2233978268285146
+obj = -486.52431141439615, rho = 0.7844928973729722
+nSV = 3163, nBSV = 794
+Total nSV = 3163
+Fold: 12
+.....*
+optimization finished, #iter = 5777
+nu = 0.22240481222505473
+obj = -484.3446082812946, rho = 0.7807692525603713
+nSV = 3104, nBSV = 789
+Total nSV = 3104
+Fold: 13
+.....*
+optimization finished, #iter = 5821
+nu = 0.22226948249199388
+obj = -484.6724575520951, rho = 0.7807666763919412
+nSV = 3135, nBSV = 790
+Total nSV = 3135
+Fold: 14
+.....*
+optimization finished, #iter = 5932
+nu = 0.22229942133366254
+obj = -484.791662069185, rho = 0.7829281861960263
+nSV = 3158, nBSV = 787
+Total nSV = 3158
+Fold: 15
+.....*
+optimization finished, #iter = 5896
+nu = 0.22317274795048392
+obj = -486.50404572909815, rho = 0.782977546416706
+nSV = 3149, nBSV = 785
+Total nSV = 3149
+Fold: 16
+.....*
+optimization finished, #iter = 5944
+nu = 0.22139481480512
+obj = -482.16308922616656, rho = 0.7809010082425477
+nSV = 3152, nBSV = 780
+Total nSV = 3152
+Fold: 17
+.....*
+optimization finished, #iter = 5856
+nu = 0.22346193107269732
+obj = -487.5333555515324, rho = 0.7837167008582353
+nSV = 3163, nBSV = 794
+Total nSV = 3163
+Fold: 18
+.....*
+optimization finished, #iter = 5841
+nu = 0.22267406676332885
+obj = -486.0934234391277, rho = 0.7852610268318893
+nSV = 3159, nBSV = 794
+Total nSV = 3159
+Fold: 19
+......*
+optimization finished, #iter = 6013
+nu = 0.22279601851438025
+obj = -486.86162130215183, rho = 0.7824290903264172
+nSV = 3145, nBSV = 793
+Total nSV = 3145
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 4.0
+:kernel: :rbf
+......*
+optimization finished, #iter = 6954
+nu = 0.06964147931354238
+obj = -993.1450420394538, rho = 0.7579047195186162
+nSV = 2647, nBSV = 117
+Total nSV = 2647
+Fold: 1
+.......*
+optimization finished, #iter = 7150
+nu = 0.07762406204830291
+obj = -1113.9734326308678, rho = 0.7788456210293704
+nSV = 2673, nBSV = 153
+Total nSV = 2673
+Fold: 2
+.......*
+optimization finished, #iter = 7083
+nu = 0.07988680512286155
+obj = -1154.8177023342573, rho = 0.7561711751260235
+nSV = 2648, nBSV = 152
+Total nSV = 2648
+Fold: 3
+.......*
+optimization finished, #iter = 7128
+nu = 0.07893819610382519
+obj = -1117.2608904749495, rho = 0.7789641885520696
+nSV = 2636, nBSV = 153
+Total nSV = 2636
+Fold: 4
+.......*
+optimization finished, #iter = 7163
+nu = 0.07520418694838053
+obj = -1057.1671067187385, rho = 0.7501449382132891
+nSV = 2640, nBSV = 125
+Total nSV = 2640
+Fold: 5
+.......*
+optimization finished, #iter = 7416
+nu = 0.08702693625295438
+obj = -1243.430264304666, rho = 0.7270689683537738
+nSV = 2661, nBSV = 168
+Total nSV = 2661
+Fold: 6
+.......*
+optimization finished, #iter = 7425
+nu = 0.08615031946306402
+obj = -1229.1573789875913, rho = 0.7248169697644724
+nSV = 2659, nBSV = 165
+Total nSV = 2659
+Fold: 7
+.......*
+optimization finished, #iter = 7457
+nu = 0.08482011729287729
+obj = -1203.1514546178023, rho = 0.7237384990849143
+nSV = 2650, nBSV = 156
+Total nSV = 2650
+Fold: 8
+.......*
+optimization finished, #iter = 7215
+nu = 0.08589456437495405
+obj = -1225.532067358097, rho = 0.7246107518673065
+nSV = 2647, nBSV = 167
+Total nSV = 2647
+Fold: 9
+.......*
+optimization finished, #iter = 7458
+nu = 0.08482914356810697
+obj = -1206.6922290605744, rho = 0.7268655743942677
+nSV = 2663, nBSV = 161
+Total nSV = 2663
+Fold: 10
+.......*
+optimization finished, #iter = 7421
+nu = 0.08556194641529435
+obj = -1224.7669651269107, rho = 0.7233287252494978
+nSV = 2673, nBSV = 174
+Total nSV = 2673
+Fold: 11
+.......*
+optimization finished, #iter = 7405
+nu = 0.08683255285712772
+obj = -1230.754536789821, rho = 0.7276167397554686
+nSV = 2674, nBSV = 168
+Total nSV = 2674
+Fold: 12
+.......*
+optimization finished, #iter = 7248
+nu = 0.08550880948558641
+obj = -1213.6139764971047, rho = 0.7247918093074722
+nSV = 2633, nBSV = 166
+Total nSV = 2633
+Fold: 13
+.......*
+optimization finished, #iter = 7341
+nu = 0.08610625325036796
+obj = -1224.9902108912493, rho = 0.725817775901409
+nSV = 2654, nBSV = 162
+Total nSV = 2654
+Fold: 14
+.......*
+optimization finished, #iter = 7410
+nu = 0.08661814374326351
+obj = -1243.3504892557685, rho = 0.7258783880918241
+nSV = 2683, nBSV = 170
+Total nSV = 2683
+Fold: 15
+.......*
+optimization finished, #iter = 7519
+nu = 0.08690564475714152
+obj = -1239.2688671972992, rho = 0.7250491883896472
+nSV = 2687, nBSV = 167
+Total nSV = 2687
+Fold: 16
+.......*
+optimization finished, #iter = 7692
+nu = 0.08550748801732411
+obj = -1222.0831782791522, rho = 0.7244833856907298
+nSV = 2677, nBSV = 154
+Total nSV = 2677
+Fold: 17
+.......*
+optimization finished, #iter = 7501
+nu = 0.087142724294407
+obj = -1242.5762144588523, rho = 0.7271142280378342
+nSV = 2686, nBSV = 162
+Total nSV = 2686
+Fold: 18
+.......*
+optimization finished, #iter = 7517
+nu = 0.08680821281401228
+obj = -1237.8420823768986, rho = 0.7312016352888694
+nSV = 2664, nBSV = 163
+Total nSV = 2664
+Fold: 19
+.......*
+optimization finished, #iter = 7399
+nu = 0.08727516904551975
+obj = -1246.4388039690875, rho = 0.7253028920966007
+nSV = 2687, nBSV = 168
+Total nSV = 2687
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 32.0
+:kernel: :rbf
+.......*
+optimization finished, #iter = 7446
+nu = 0.012724679774690523
+obj = -1320.6654061565298, rho = 0.7734051637518699
+nSV = 2538, nBSV = 4
+Total nSV = 2538
+Fold: 1
+.......*
+optimization finished, #iter = 7758
+nu = 0.014068841809783945
+obj = -1456.3871602265897, rho = 0.8002074983663205
+nSV = 2541, nBSV = 5
+Total nSV = 2541
+Fold: 2
+.......*
+optimization finished, #iter = 7592
+nu = 0.01460059013510677
+obj = -1476.3901166675792, rho = 0.7773023490823225
+nSV = 2504, nBSV = 3
+Total nSV = 2504
+Fold: 3
+.......*
+optimization finished, #iter = 7748
+nu = 0.01376824039586702
+obj = -1394.1058085641955, rho = 0.8023263931329024
+nSV = 2496, nBSV = 3
+Total nSV = 2496
+Fold: 4
+.......*
+optimization finished, #iter = 7481
+nu = 0.013061560584521879
+obj = -1358.1620382541023, rho = 0.7619242954862551
+nSV = 2541, nBSV = 5
+Total nSV = 2541
+Fold: 5
+........*
+optimization finished, #iter = 8035
+nu = 0.015638832806472595
+obj = -1611.2550110076818, rho = 0.7496102983693318
+nSV = 2530, nBSV = 5
+Total nSV = 2530
+Fold: 6
+........*
+optimization finished, #iter = 8013
+nu = 0.01563432219313232
+obj = -1610.6586079004378, rho = 0.7462567046961924
+nSV = 2511, nBSV = 5
+Total nSV = 2511
+Fold: 7
+........*
+optimization finished, #iter = 8128
+nu = 0.015168352252084063
+obj = -1564.6910427959108, rho = 0.7414486821105455
+nSV = 2527, nBSV = 5
+Total nSV = 2527
+Fold: 8
+.......*
+optimization finished, #iter = 7826
+nu = 0.015486481511093114
+obj = -1596.2440419398579, rho = 0.7435444720784653
+nSV = 2502, nBSV = 5
+Total nSV = 2502
+Fold: 9
+.......*
+optimization finished, #iter = 7839
+nu = 0.015341559464381947
+obj = -1582.4676838424857, rho = 0.7465100409843951
+nSV = 2523, nBSV = 5
+Total nSV = 2523
+Fold: 10
+........*
+optimization finished, #iter = 8199
+nu = 0.015498922042452167
+obj = -1596.2261268635827, rho = 0.743737088912313
+nSV = 2517, nBSV = 5
+Total nSV = 2517
+Fold: 11
+.......*
+optimization finished, #iter = 7824
+nu = 0.015379893211024
+obj = -1587.10676190642, rho = 0.7444862128117051
+nSV = 2549, nBSV = 5
+Total nSV = 2549
+Fold: 12
+.......*
+optimization finished, #iter = 7992
+nu = 0.01523062577014913
+obj = -1571.1610290193453, rho = 0.745516670877567
+nSV = 2511, nBSV = 5
+Total nSV = 2511
+Fold: 13
+........*
+optimization finished, #iter = 8070
+nu = 0.01518847735305286
+obj = -1531.976550653819, rho = 0.7447989648337277
+nSV = 2528, nBSV = 2
+Total nSV = 2528
+Fold: 14
+.......*
+optimization finished, #iter = 7929
+nu = 0.01586355943029708
+obj = -1632.967818984489, rho = 0.7460498295204638
+nSV = 2539, nBSV = 5
+Total nSV = 2539
+Fold: 15
+........*
+optimization finished, #iter = 8169
+nu = 0.015541132391416532
+obj = -1569.4669462949657, rho = 0.7457515733947083
+nSV = 2537, nBSV = 3
+Total nSV = 2537
+Fold: 16
+........*
+optimization finished, #iter = 8118
+nu = 0.015507522401962457
+obj = -1597.9999628152584, rho = 0.7441173071438031
+nSV = 2529, nBSV = 5
+Total nSV = 2529
+Fold: 17
+........*
+optimization finished, #iter = 8087
+nu = 0.01579129825510601
+obj = -1626.6874827285565, rho = 0.7458312858239868
+nSV = 2537, nBSV = 5
+Total nSV = 2537
+Fold: 18
+........*
+optimization finished, #iter = 8037
+nu = 0.01553350626582108
+obj = -1598.9065189190878, rho = 0.7491897684465882
+nSV = 2539, nBSV = 5
+Total nSV = 2539
+Fold: 19
+.......*
+optimization finished, #iter = 7936
+nu = 0.015847114535889145
+obj = -1631.6059768570778, rho = 0.7459294533596471
+nSV = 2540, nBSV = 5
+Total nSV = 2540
+Fold: 20
+Running Analysis for agaricus-lepiota SVM
+Evaluating:
+ ---
+:degree: 3
+:cost: 0.0078125
+:kernel: :rbf
+..*
+optimization finished, #iter = 2023
+nu = 0.4744500227134034
+obj = -20.44559611779959, rho = -0.07064131392841158
+nSV = 3679, nBSV = 3640
+Total nSV = 3679
+Fold: 1
+..*
+optimization finished, #iter = 2131
+nu = 0.4736800746323609
+obj = -20.438526121606113, rho = 0.06455344029593224
+nSV = 3676, nBSV = 3628
+Total nSV = 3676
+Fold: 2
+..*
+optimization finished, #iter = 2113
+nu = 0.47421782759645376
+obj = -20.460190203129688, rho = 0.07659418151574571
+nSV = 3678, nBSV = 3644
+Total nSV = 3678
+Fold: 3
+..*
+optimization finished, #iter = 2102
+nu = 0.46999624663886647
+obj = -20.22359970472841, rho = 0.08690553102247782
+nSV = 3643, nBSV = 3611
+Total nSV = 3643
+Fold: 4
+..*
+optimization finished, #iter = 2112
+nu = 0.47373551957616633
+obj = -20.445869859490614, rho = 0.08091010260365074
+nSV = 3670, nBSV = 3639
+Total nSV = 3670
+Fold: 5
+..*
+optimization finished, #iter = 2140
+nu = 0.48006230609247785
+obj = -20.773553530585687, rho = 0.07770979671462751
+nSV = 3721, nBSV = 3687
+Total nSV = 3721
+Fold: 6
+..*
+optimization finished, #iter = 2151
+nu = 0.48193403103657506
+obj = -20.87376720264159, rho = 0.0758719083084468
+nSV = 3736, nBSV = 3701
+Total nSV = 3736
+Fold: 7
+..*
+optimization finished, #iter = 2135
+nu = 0.4768997249180557
+obj = -20.629286800580957, rho = 0.08496741967217909
+nSV = 3698, nBSV = 3663
+Total nSV = 3698
+Fold: 8
+..*
+optimization finished, #iter = 2104
+nu = 0.4708430843584553
+obj = -20.31103497270037, rho = 0.09501194769313415
+nSV = 3657, nBSV = 3617
+Total nSV = 3657
+Fold: 9
+..*
+optimization finished, #iter = 2108
+nu = 0.4714702887940132
+obj = -20.325756154922267, rho = 0.09439801642612025
+nSV = 3658, nBSV = 3621
+Total nSV = 3658
+Fold: 10
+..*
+optimization finished, #iter = 2161
+nu = 0.4786965803998708
+obj = -20.70911236864767, rho = 0.08502091355595928
+nSV = 3714, nBSV = 3675
+Total nSV = 3714
+Fold: 11
+..*
+optimization finished, #iter = 2151
+nu = 0.47602435925266895
+obj = -20.58491987996572, rho = 0.07856970242542158
+nSV = 3695, nBSV = 3655
+Total nSV = 3695
+Fold: 12
+..*
+optimization finished, #iter = 2080
+nu = 0.45987429115960904
+obj = -19.780248598190664, rho = 0.07482348415768614
+nSV = 3565, nBSV = 3531
+Total nSV = 3565
+Fold: 13
+..*
+optimization finished, #iter = 2038
+nu = 0.44729913987638165
+obj = -19.144069501304028, rho = 0.057102780160554124
+nSV = 3476, nBSV = 3434
+Total nSV = 3476
+Fold: 14
+..*
+optimization finished, #iter = 2068
+nu = 0.4547226708287258
+obj = -19.51595024040444, rho = 0.07632459480462689
+nSV = 3525, nBSV = 3489
+Total nSV = 3525
+Fold: 15
+..*
+optimization finished, #iter = 2168
+nu = 0.4820674320507867
+obj = -20.910806967991284, rho = 0.08079588875176438
+nSV = 3738, nBSV = 3698
+Total nSV = 3738
+Fold: 16
+..*
+optimization finished, #iter = 2161
+nu = 0.48226710294552133
+obj = -20.915597108449326, rho = 0.07826870360963763
+nSV = 3740, nBSV = 3704
+Total nSV = 3740
+Fold: 17
+..*
+optimization finished, #iter = 2097
+nu = 0.46749538796846146
+obj = -20.323353307680417, rho = 0.025197062586103644
+nSV = 3626, nBSV = 3590
+Total nSV = 3626
+Fold: 18
+..*
+optimization finished, #iter = 2086
+nu = 0.4636293663248208
+obj = -20.160443018553014, rho = 0.00868046776061071
+nSV = 3601, nBSV = 3559
+Total nSV = 3601
+Fold: 19
+..*
+optimization finished, #iter = 2067
+nu = 0.4577619997764383
+obj = -19.96683246568398, rho = -0.0429062978169027
+nSV = 3559, nBSV = 3510
+Total nSV = 3559
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 0.0625
+:kernel: :rbf
+.*
+optimization finished, #iter = 1189
+nu = 0.19067867709780242
+obj = -54.09104387234257, rho = -0.09071201758670347
+nSV = 1552, nBSV = 1392
+Total nSV = 1552
+Fold: 1
+.*
+optimization finished, #iter = 1194
+nu = 0.19097767718607922
+obj = -54.20887459838683, rho = 0.09009976762984592
+nSV = 1553, nBSV = 1390
+Total nSV = 1553
+Fold: 2
+.*
+optimization finished, #iter = 1219
+nu = 0.19313357942714218
+obj = -54.78903779030652, rho = 0.08200866657691233
+nSV = 1572, nBSV = 1405
+Total nSV = 1572
+Fold: 3
+.*
+optimization finished, #iter = 1224
+nu = 0.1919853994978598
+obj = -54.67096603428567, rho = 0.08954788530481822
+nSV = 1558, nBSV = 1408
+Total nSV = 1558
+Fold: 4
+.*
+optimization finished, #iter = 1206
+nu = 0.19469466045201403
+obj = -55.07411745671514, rho = 0.07868884849353466
+nSV = 1584, nBSV = 1420
+Total nSV = 1584
+Fold: 5
+.*
+optimization finished, #iter = 1222
+nu = 0.19667894248162973
+obj = -55.3340096633614, rho = 0.07259347720884815
+nSV = 1597, nBSV = 1435
+Total nSV = 1597
+Fold: 6
+.*
+optimization finished, #iter = 1221
+nu = 0.19722301286753624
+obj = -55.494550353527586, rho = 0.07078529367433914
+nSV = 1604, nBSV = 1441
+Total nSV = 1604
+Fold: 7
+.*
+optimization finished, #iter = 1288
+nu = 0.19654021316723805
+obj = -55.363216587645795, rho = 0.07443755290139994
+nSV = 1599, nBSV = 1432
+Total nSV = 1599
+Fold: 8
+.*
+optimization finished, #iter = 1250
+nu = 0.19489963498959728
+obj = -55.15358926505544, rho = 0.07668655897920117
+nSV = 1588, nBSV = 1418
+Total nSV = 1588
+Fold: 9
+.*
+optimization finished, #iter = 1252
+nu = 0.19438367636952383
+obj = -54.966737317188986, rho = 0.07583557428825599
+nSV = 1596, nBSV = 1420
+Total nSV = 1596
+Fold: 10
+.*
+optimization finished, #iter = 1223
+nu = 0.19629934928899925
+obj = -55.213273602155596, rho = 0.06945102825520032
+nSV = 1593, nBSV = 1443
+Total nSV = 1593
+Fold: 11
+.*
+optimization finished, #iter = 1253
+nu = 0.1953577569791165
+obj = -55.0361692371962, rho = 0.07065947366965583
+nSV = 1595, nBSV = 1429
+Total nSV = 1595
+Fold: 12
+.*
+optimization finished, #iter = 1195
+nu = 0.18960676918832187
+obj = -53.26753056019398, rho = 0.06990560987164773
+nSV = 1545, nBSV = 1380
+Total nSV = 1545
+Fold: 13
+.*
+optimization finished, #iter = 1207
+nu = 0.18640570234370876
+obj = -52.87806897597329, rho = 0.04505176899331208
+nSV = 1518, nBSV = 1358
+Total nSV = 1518
+Fold: 14
+.*
+optimization finished, #iter = 1221
+nu = 0.18809358682158073
+obj = -53.11510259374734, rho = 0.06562817922357904
+nSV = 1537, nBSV = 1378
+Total nSV = 1537
+Fold: 15
+.*
+optimization finished, #iter = 1261
+nu = 0.19739284600660498
+obj = -55.47810687005814, rho = 0.07229401215894961
+nSV = 1604, nBSV = 1446
+Total nSV = 1604
+Fold: 16
+.*
+optimization finished, #iter = 1280
+nu = 0.19721678845660398
+obj = -55.42731450160712, rho = 0.07631722591406596
+nSV = 1600, nBSV = 1439
+Total nSV = 1600
+Fold: 17
+.*
+optimization finished, #iter = 1176
+nu = 0.19183461424191728
+obj = -54.00968162139967, rho = 0.09527276803539307
+nSV = 1556, nBSV = 1410
+Total nSV = 1556
+Fold: 18
+.*
+optimization finished, #iter = 1165
+nu = 0.1913631821402012
+obj = -53.72261609314402, rho = 0.10902871312326842
+nSV = 1546, nBSV = 1402
+Total nSV = 1546
+Fold: 19
+.*
+optimization finished, #iter = 1170
+nu = 0.19205650071267227
+obj = -54.07222405428253, rho = 0.07276772127542713
+nSV = 1548, nBSV = 1411
+Total nSV = 1548
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 0.5
+:kernel: :rbf
+.*
+optimization finished, #iter = 1906
+nu = 0.03883876939569724
+obj = -78.6510344153364, rho = 0.12278693205960181
+nSV = 506, nBSV = 165
+Total nSV = 506
+Fold: 1
+..*
+optimization finished, #iter = 2006
+nu = 0.038774855401198835
+obj = -78.52589830793544, rho = -0.12078445771850202
+nSV = 514, nBSV = 170
+Total nSV = 514
+Fold: 2
+.*
+optimization finished, #iter = 1901
+nu = 0.03898572108771796
+obj = -78.8473782783945, rho = -0.12361915420136747
+nSV = 508, nBSV = 169
+Total nSV = 508
+Fold: 3
+..*
+optimization finished, #iter = 2074
+nu = 0.039002876981063035
+obj = -78.88787584716795, rho = -0.12258778746116376
+nSV = 514, nBSV = 168
+Total nSV = 514
+Fold: 4
+.*
+optimization finished, #iter = 1999
+nu = 0.03905093122092543
+obj = -78.96319203657556, rho = -0.12283853711047038
+nSV = 513, nBSV = 164
+Total nSV = 513
+Fold: 5
+..*
+optimization finished, #iter = 2099
+nu = 0.039087146218373794
+obj = -79.0024650397608, rho = -0.12177262010293535
+nSV = 507, nBSV = 169
+Total nSV = 507
+Fold: 6
+.*
+optimization finished, #iter = 1970
+nu = 0.03911901438108206
+obj = -79.05563126619262, rho = -0.12240434587697088
+nSV = 508, nBSV = 171
+Total nSV = 508
+Fold: 7
+.*
+optimization finished, #iter = 1931
+nu = 0.03907799755562649
+obj = -79.01841161744346, rho = -0.12116759717357299
+nSV = 513, nBSV = 172
+Total nSV = 513
+Fold: 8
+..*
+optimization finished, #iter = 2026
+nu = 0.03906984803145748
+obj = -78.99659865324993, rho = -0.12271333588233319
+nSV = 509, nBSV = 178
+Total nSV = 509
+Fold: 9
+.*
+optimization finished, #iter = 1791
+nu = 0.039025023914715115
+obj = -78.93258679449936, rho = -0.12036548040297267
+nSV = 511, nBSV = 178
+Total nSV = 511
+Fold: 10
+.*
+optimization finished, #iter = 1984
+nu = 0.038772546825255404
+obj = -78.24706737817449, rho = -0.12024141829740168
+nSV = 502, nBSV = 168
+Total nSV = 502
+Fold: 11
+..*
+optimization finished, #iter = 2182
+nu = 0.03897528597102895
+obj = -78.65573911273168, rho = -0.12109134695466622
+nSV = 516, nBSV = 170
+Total nSV = 516
+Fold: 12
+.*
+optimization finished, #iter = 1858
+nu = 0.037114234295181577
+obj = -74.94139652569514, rho = -0.1060469251678522
+nSV = 485, nBSV = 152
+Total nSV = 485
+Fold: 13
+.*
+optimization finished, #iter = 1846
+nu = 0.03797626955095535
+obj = -77.13820210454342, rho = -0.13468067199662753
+nSV = 486, nBSV = 165
+Total nSV = 486
+Fold: 14
+.*
+optimization finished, #iter = 1780
+nu = 0.038321219623964196
+obj = -77.83539610746988, rho = -0.1245069729617441
+nSV = 498, nBSV = 162
+Total nSV = 498
+Fold: 15
+.*
+optimization finished, #iter = 1967
+nu = 0.039107766655667925
+obj = -79.04118714585927, rho = -0.12270818240987494
+nSV = 518, nBSV = 170
+Total nSV = 518
+Fold: 16
+.*
+optimization finished, #iter = 1958
+nu = 0.03911799787315469
+obj = -79.04211417164794, rho = -0.12253402565842719
+nSV = 506, nBSV = 167
+Total nSV = 506
+Fold: 17
+.*
+optimization finished, #iter = 1778
+nu = 0.038700142734060534
+obj = -78.33063055694605, rho = -0.1134800628297373
+nSV = 486, nBSV = 166
+Total nSV = 486
+Fold: 18
+.*
+optimization finished, #iter = 1752
+nu = 0.038390864790518786
+obj = -78.03207389894092, rho = -0.07830877731700668
+nSV = 488, nBSV = 176
+Total nSV = 488
+Fold: 19
+.*
+optimization finished, #iter = 1841
+nu = 0.038717402706124136
+obj = -78.35109376188153, rho = -0.12357428861638876
+nSV = 482, nBSV = 170
+Total nSV = 482
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 4.0
+:kernel: :rbf
+...*
+optimization finished, #iter = 3234
+nu = 0.005488053794641685
+obj = -84.97287203731939, rho = 0.14762134025367435
+nSV = 420, nBSV = 2
+Total nSV = 420
+Fold: 1
+...*
+optimization finished, #iter = 3160
+nu = 0.0054751078043043765
+obj = -84.78646546318424, rho = -0.15094916123228314
+nSV = 415, nBSV = 2
+Total nSV = 415
+Fold: 2
+...*
+optimization finished, #iter = 3596
+nu = 0.005489160294268483
+obj = -84.99594814386612, rho = -0.1501251626769987
+nSV = 426, nBSV = 2
+Total nSV = 426
+Fold: 3
+...*
+optimization finished, #iter = 3418
+nu = 0.00548896752987642
+obj = -84.9942343220825, rho = -0.14932334176876982
+nSV = 425, nBSV = 2
+Total nSV = 425
+Fold: 4
+...*
+optimization finished, #iter = 3548
+nu = 0.005490291185852395
+obj = -85.02792172950319, rho = -0.14925289088455992
+nSV = 421, nBSV = 2
+Total nSV = 421
+Fold: 5
+...*
+optimization finished, #iter = 3809
+nu = 0.005491590370178719
+obj = -85.04309766257803, rho = -0.14998464733442798
+nSV = 439, nBSV = 2
+Total nSV = 439
+Fold: 6
+...*
+optimization finished, #iter = 3752
+nu = 0.005491871332152961
+obj = -85.05089827489043, rho = -0.14952661477328247
+nSV = 429, nBSV = 2
+Total nSV = 429
+Fold: 7
+...*
+optimization finished, #iter = 3682
+nu = 0.0054911247747063685
+obj = -85.03709086341671, rho = -0.14910559419932398
+nSV = 434, nBSV = 2
+Total nSV = 434
+Fold: 8
+...*
+optimization finished, #iter = 3657
+nu = 0.005488507436631783
+obj = -85.00099288771779, rho = -0.15062089088630998
+nSV = 425, nBSV = 2
+Total nSV = 425
+Fold: 9
+...*
+optimization finished, #iter = 3511
+nu = 0.005486798543683399
+obj = -84.97121562638613, rho = -0.14923345706035984
+nSV = 421, nBSV = 2
+Total nSV = 421
+Fold: 10
+...*
+optimization finished, #iter = 3481
+nu = 0.005435589217691599
+obj = -84.05949674741487, rho = -0.14780146133359454
+nSV = 402, nBSV = 2
+Total nSV = 402
+Fold: 11
+...*
+optimization finished, #iter = 3511
+nu = 0.005487460458965991
+obj = -84.99565999484952, rho = -0.14939623797675194
+nSV = 415, nBSV = 2
+Total nSV = 415
+Fold: 12
+...*
+optimization finished, #iter = 3070
+nu = 0.005418697790597752
+obj = -84.48837843781385, rho = -0.1520752164555889
+nSV = 393, nBSV = 3
+Total nSV = 393
+Fold: 13
+..*
+optimization finished, #iter = 2833
+nu = 0.005464966326224366
+obj = -84.61091752130956, rho = -0.1479813207775183
+nSV = 389, nBSV = 4
+Total nSV = 389
+Fold: 14
+...*
+optimization finished, #iter = 3016
+nu = 0.005465131848879413
+obj = -84.6510784596442, rho = -0.15262998975485992
+nSV = 413, nBSV = 3
+Total nSV = 413
+Fold: 15
+...*
+optimization finished, #iter = 3564
+nu = 0.005491421518138474
+obj = -85.04511180953232, rho = -0.1498299844173832
+nSV = 419, nBSV = 2
+Total nSV = 419
+Fold: 16
+...*
+optimization finished, #iter = 3565
+nu = 0.005491921936988529
+obj = -85.04923551856929, rho = -0.1493217237638815
+nSV = 420, nBSV = 2
+Total nSV = 420
+Fold: 17
+...*
+optimization finished, #iter = 3469
+nu = 0.00545477447284788
+obj = -84.46928479402395, rho = -0.14069666416896545
+nSV = 393, nBSV = 2
+Total nSV = 393
+Fold: 18
+...*
+optimization finished, #iter = 3571
+nu = 0.005454331325462783
+obj = -84.61297032899475, rho = -0.131365790658372
+nSV = 393, nBSV = 2
+Total nSV = 393
+Fold: 19
+...*
+optimization finished, #iter = 3192
+nu = 0.0054429328629724575
+obj = -84.32687624911588, rho = -0.14714886588393447
+nSV = 391, nBSV = 2
+Total nSV = 391
+Fold: 20
+Evaluating:
+ ---
+:degree: 3
+:cost: 32.0
+:kernel: :rbf
+...*
+optimization finished, #iter = 3298
+nu = 6.889902432418321E-4
+obj = -85.07334080399251, rho = 0.14859845006345496
+nSV = 429, nBSV = 0
+Total nSV = 429
+Fold: 1
+...*
+optimization finished, #iter = 3257
+nu = 6.875123564466785E-4
+obj = -84.89158188606372, rho = -0.1518889930661012
+nSV = 424, nBSV = 0
+Total nSV = 424
+Fold: 2
+...*
+optimization finished, #iter = 3729
+nu = 6.892113866865E-4
+obj = -85.09804961014318, rho = -0.15083219646720425
+nSV = 430, nBSV = 0
+Total nSV = 430
+Fold: 3
+...*
+optimization finished, #iter = 3723
+nu = 6.891860300315606E-4
+obj = -85.09652303455275, rho = -0.15017796216456142
+nSV = 421, nBSV = 0
+Total nSV = 421
+Fold: 4
+...*
+optimization finished, #iter = 3421
+nu = 6.893812426849003E-4
+obj = -85.13146273347914, rho = -0.1502416412561216
+nSV = 424, nBSV = 0
+Total nSV = 424
+Fold: 5
+...*
+optimization finished, #iter = 3904
+nu = 6.894995141469582E-4
+obj = -85.14493512724583, rho = -0.15092997671554484
+nSV = 435, nBSV = 0
+Total nSV = 435
+Fold: 6
+...*
+optimization finished, #iter = 3830
+nu = 6.895565894453963E-4
+obj = -85.15352601676497, rho = -0.1503389998317759
+nSV = 428, nBSV = 0
+Total nSV = 428
+Fold: 7
+...*
+optimization finished, #iter = 3803
+nu = 6.894360677884879E-4
+obj = -85.14018950444364, rho = -0.15018423198632574
+nSV = 441, nBSV = 0
+Total nSV = 441
+Fold: 8
+...*
+optimization finished, #iter = 3388
+nu = 6.891785686894073E-4
+obj = -85.1060385141049, rho = -0.15145784846735588
+nSV = 426, nBSV = 0
+Total nSV = 426
+Fold: 9
+...*
+optimization finished, #iter = 3810
+nu = 6.889259065512122E-4
+obj = -85.07418491316986, rho = -0.15006097358014336
+nSV = 424, nBSV = 0
+Total nSV = 424
+Fold: 10
+...*
+optimization finished, #iter = 3466
+nu = 6.814508231424516E-4
+obj = -84.15209325919531, rho = -0.14805965243041944
+nSV = 404, nBSV = 0
+Total nSV = 404
+Fold: 11
+...*
+optimization finished, #iter = 3814
+nu = 6.891895743843473E-4
+obj = -85.1075385548801, rho = -0.15062269606427406
+nSV = 423, nBSV = 0
+Total nSV = 423
+Fold: 12
+...*
+optimization finished, #iter = 3631
+nu = 6.8645381733532E-4
+obj = -84.76820427561034, rho = -0.1537635853539795
+nSV = 406, nBSV = 0
+Total nSV = 406
+Fold: 13
+..*
+optimization finished, #iter = 2971
+nu = 6.855434972307979E-4
+obj = -84.65758383691633, rho = -0.14858392892126845
+nSV = 393, nBSV = 0
+Total nSV = 393
+Fold: 14
+...*
+optimization finished, #iter = 3370
+nu = 6.863760091554249E-4
+obj = -84.76019192016075, rho = -0.15341291741710839
+nSV = 420, nBSV = 0
+Total nSV = 420
+Fold: 15
+...*
+optimization finished, #iter = 3554
+nu = 6.895392446364398E-4
+obj = -85.14860949138294, rho = -0.15075063992361534
+nSV = 431, nBSV = 0
+Total nSV = 431
+Fold: 16
+...*
+optimization finished, #iter = 3782
+nu = 6.895242310858997E-4
+obj = -85.15188959538834, rho = -0.1501818525051904
+nSV = 424, nBSV = 0
+Total nSV = 424
+Fold: 17
+...*
+optimization finished, #iter = 3249
+nu = 6.848073899116371E-4
+obj = -84.56652238922798, rho = -0.14130597057306832
+nSV = 397, nBSV = 0
+Total nSV = 397
+Fold: 18
+...*
+optimization finished, #iter = 3284
+nu = 6.865510435985354E-4
+obj = -84.78254348064492, rho = -0.13344655960177268
+nSV = 396, nBSV = 0
+Total nSV = 396
+Fold: 19
+...*
+optimization finished, #iter = 3241
+nu = 6.837710367084939E-4
+obj = -84.44076216263946, rho = -0.1478681700784013
+nSV = 388, nBSV = 0
+Total nSV = 388
+Fold: 20
+Running Analysis for winequality J48Tree
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Running Analysis for agaricus-lepiota J48Tree
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.05000000074505806
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.15000000596046448
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.25
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.3499999940395355
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 2
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 3
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 4
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+confidence_factor: 0.44999998807907104
+use_laplace: false
+reduced_error_pruning: false
+min_num_obj: 5
+binary_splits: false
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Running Analysis for winequality AdaBoost
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 10
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 100
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 500
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 1000
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 5000
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 10000
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Running Analysis for agaricus-lepiota AdaBoost
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 10
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 100
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 500
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 1000
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 5000
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Evaluating:
+ ---
+weight_threshold: 100
+use_resampling: false
+num_iterations: 10000
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Fold: 6
+Fold: 7
+Fold: 8
+Fold: 9
+Fold: 10
+Fold: 11
+Fold: 12
+Fold: 13
+Fold: 14
+Fold: 15
+Fold: 16
+Fold: 17
+Fold: 18
+Fold: 19
+Fold: 20
+Running Analysis for winequality NeuralNetwork
+Evaluating:
+ ---
+:training_time: 100
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 200
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 300
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 400
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 500
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Running Analysis for agaricus-lepiota NeuralNetwork
+Evaluating:
+ ---
+:training_time: 100
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 200
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 300
+Fold: 1
+Fold: 2
+Fold: 3
+Fold: 4
+Fold: 5
+Evaluating:
+ ---
+:training_time: 400
+Fold: 1
+Fold: 2
